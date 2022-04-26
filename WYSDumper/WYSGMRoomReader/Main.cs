@@ -64,7 +64,10 @@ namespace WYSGMRoomReader
                     }
                 }
             }
-            
+
+            rm.Width = (uint)rmdata.roomSettings.Width;
+            rm.Height = (uint)rmdata.roomSettings.Height;
+
             return rm;
         }
     
