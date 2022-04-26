@@ -1,0 +1,21 @@
+{
+    "id": "com.github.benjaminpants.wys.wysgmroom",
+    "name": "GM Room Tool",
+	"description": "A very basic tool/api that allows the use of the Game Maker room editor for Will You Snail",
+    "version": "1.0.0",
+    "authors": [ "MissingTextureMan101" ],
+	"dependencies": [
+        {
+            "id": "com.github.cgytrus.gmml.hooker",
+            "version": "0.1.0"
+        },
+		{
+			"id": "com.github.benjaminpants.wys.tsimphapi",
+			"version": "1.0.0"
+		},
+        {
+            "id": "com.github.cgytrus.wys.api",
+            "version": "0.1.0"
+        }
+    ]
+}

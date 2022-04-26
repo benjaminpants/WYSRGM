@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="GmmlHooker">
+      <HintPath>..\Depends\GmmlHooker.dll</HintPath>
+    </Reference>
+    <Reference Include="GmmlPatcher">
+      <HintPath>..\Depends\GmmlPatcher.dll</HintPath>
+    </Reference>
+    <Reference Include="TSIMPH_API">
+      <HintPath>..\Depends\TSIMPH_API.dll</HintPath>
+    </Reference>
+    <Reference Include="UndertaleModLib">
+      <HintPath>..\Depends\UndertaleModLib.dll</HintPath>
+    </Reference>
+    <Reference Include="WysApi">
+      <HintPath>..\Depends\WysApi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WYSDumper", "WYSDumper\WYSDumper.csproj", "{8C588D96-4789-455A-8A05-8D823191E4A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WYSGMRoomReader", "WYSGMRoomReader\WYSGMRoomReader.csproj", "{F6557BE5-44E5-4050-BD1E-ADAE21F06D27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C588D96-4789-455A-8A05-8D823191E4A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C588D96-4789-455A-8A05-8D823191E4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C588D96-4789-455A-8A05-8D823191E4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C588D96-4789-455A-8A05-8D823191E4A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6557BE5-44E5-4050-BD1E-ADAE21F06D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6557BE5-44E5-4050-BD1E-ADAE21F06D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6557BE5-44E5-4050-BD1E-ADAE21F06D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6557BE5-44E5-4050-BD1E-ADAE21F06D27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D40DB25-3F05-45EA-A509-CDCC9FF1467C}
+	EndGlobalSection
+EndGlobal
