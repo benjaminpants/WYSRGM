@@ -35,6 +35,19 @@ namespace WYSGMRoomReader
 
             Patcher.AddFileToCache(0, Path.Combine(Path.Combine(room_folder, room_name), room_name + ".yy"));
 
+            string creation_code = Path.Combine(room_folder, room_name, "RoomCreationCode.gml");
+            if (File.Exists(creation_code))
+            {
+                if (instantapply)
+                {
+                    rm.CreationCodeId = data.CreateCode(room_name + "_RoomCreationCode", File.ReadAllText(creation_code), 0);
+                }
+                else
+                {
+                    throw new NotImplementedException("Rooms with creation code that aren't instantly applied isn't supported yet!");
+                }
+            }
+
             foreach (LayerData ld in rmdata.layers)
             {
                 if (ld.instances != null)
